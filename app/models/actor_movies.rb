@@ -1,0 +1,4 @@
+class ActorMovies < ActiveRecord 
+    belongs_to :movies
+    belongs_to :actors
+end
