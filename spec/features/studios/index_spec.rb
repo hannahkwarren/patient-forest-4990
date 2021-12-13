@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.require "Studios Index" do
+RSpec.describe "Studios Index" do
     
 
     it "lists each studio's name and location, with all movie titles" do
