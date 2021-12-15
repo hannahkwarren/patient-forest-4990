@@ -1,6 +1,4 @@
-class Actor < ActiveRecord 
-    belongs_to :movie
-    has_many :movies 
+class Actor < ApplicationRecord 
+    has_many :actor_movies
     has_many :movies, through: :actor_movies
-
 end
